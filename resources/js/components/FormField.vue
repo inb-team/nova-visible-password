@@ -13,7 +13,7 @@
                     :class="errorClasses"
                     :placeholder="placeholder"
                     v-model="value"
-                    :disabled="currentlyIsReadonly"
+                    :disabled="isReadonly"
                 />
                 <div v-if="this.field.visibleOnForms" class="tw-absolute tw-right-3 tw-top-1/2 tw--translate-y-1/2 rtl:tw-right-auto rtl:tw-left-3 tw-w-max tw-select-none tw-cursor-default" @click="toggleVisibility">
                     <div v-if="this.fieldType == 'password'" v-tooltip="field.showMessage">
