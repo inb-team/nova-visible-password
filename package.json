@@ -8,11 +8,11 @@
         "hot": "mix watch --hot",
         "prod": "npm run production",
         "production": "mix --production",
-        "nova:install": "npm --prefix='../../vendor/laravel/nova' ci"
+        "nova:install": "npm --prefix='./vendor/laravel/nova' ci"
     },
     "devDependencies": {
+        "@vue/compiler-sfc": "^3.2.45",
         "autoprefixer": "^10.4.13",
-        "form-backend-validation": "^2.3.3",
         "laravel-mix": "^6.0.41",
         "lodash": "^4.17.21",
         "postcss": "^8.4.19",
